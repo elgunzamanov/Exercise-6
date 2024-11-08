@@ -1,5 +1,9 @@
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		User user = new User("Elgun");
+		System.out.println(user);
+		
+		user.setRole("Admin");
+		System.out.println(user);
 	}
 }
